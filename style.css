@@ -1,0 +1,750 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    /*header start */
+header{
+    min-width: 100%;
+    height:70px ;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    
+}
+
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo{
+  margin-left: 200px;
+  padding: 15px;
+}
+
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+
+header .nav ul li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+}
+
+header .nav ul li a{
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header .nav ul li a:hover{
+    color: #7597ff;
+}
+
+
+.checkbtn{
+  display: none;
+  font-size: 30px;
+  color: rgba(0,0,0, 0.9);
+  float: right;
+  line-height: 60px;
+  margin-right: -170px;
+
+ 
+}
+#check{
+  display: none;
+}
+/* header end */
+
+/* section one start */
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1, .half2{
+    width: 50%;
+}
+
+.half1{
+    margin-left:230px;
+    margin-bottom:120px ;
+}
+
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.half2 img{
+    width: 100%;
+    height: auto;
+}
+
+.half1 h3{
+ font-weight: normal;
+}
+
+.half1 h1{
+    font-size: 
+    50px;
+}
+.half1 P{
+    color: gray;
+    letter-spacing: 1px;
+}
+.half1 input{
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: #8393ff;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border: 1px solid #8393ff;
+
+    }
+
+    .half1 input:hover{
+        box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+        transition: all 0.5s ease-in 0.1s;
+        outline: none;
+    }
+
+    /* section one end */
+
+    /* section two start */
+   .section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   }
+  .section2 div{
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .section2 img{
+    width: 70%;
+    height: auto;
+    padding-left:150px;
+    
+  }
+   
+  .text h3{
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  .text h1{
+    font-size: 40px;
+  }
+
+  .text p{
+    width: 500px;
+    height: auto;
+  }
+
+  .text input{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #7597ff;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #7597ff;
+    width: 150px;
+    height: 40px;
+  }
+
+  .text input:hover{
+    background-color: #8393ff;
+    transition: all 0.5s ease-in 0.2s;
+    transform: rotate(360deg);
+  }
+
+  /* section two end */
+
+  /* section three start */
+  .section3{
+    min-width:100%;
+    height: 650px; 
+  }
+
+  .servise{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .my{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .card{
+    width: 380px;
+    height: 200px;
+    
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .card input{
+    width: 100px;
+    height: 30px;
+    background-color: #7597ff;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  /* section three end */
+  
+  /* section four start */
+  .section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8393ff;
+    margin-top: 100px;
+   
+  }
+
+  .stage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: #fff;
+    
+  }
+
+  .stage h1{
+    font-size: 35px;
+  }
+
+  .section5{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    top: 100px;
+    
+  }
+
+  .tex{
+    text-align: center;
+    
+    font-size: 25px;
+  }
+
+  .tex ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 50px;
+    list-style: none;
+    font-size: 20px;
+    
+  }
+
+  .tex ul li a{
+    text-decoration: none;
+    color: #8393ff;
+  }
+
+  .img{
+    width: 300px;
+    height: 320px;
+    
+    box-shadow:20px 30px 20px 20px rgb(187, 185, 185);
+  }
+
+  .img img{
+    width: 100%;
+  }
+
+  .protfolio{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+    top: 80px;
+    padding: 20px;
+   
+  }
+
+
+  /* section four end */
+
+  /* section container start */
+  .container{
+    width: 100%;
+    height: 100px;
+   margin-top: 200px;
+   background-color:rgb(243, 235, 236) ;
+    position: relative;
+    
+    text-align: center;
+    
+  }
+
+  .container, h1 p{
+    position: relative;
+    top: 10px;
+  }
+
+  /* section container end */
+
+  /* section six start */
+
+  .section6{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    background-color: rgb(243, 235, 236);
+    top: -10px;
+
+   
+  }
+
+  .person1{
+    width: 600px;
+    height: 200px;
+    background-color: #fff;
+  }
+  .card-body, img{
+    width: 8%;
+  }
+
+  .tex p{
+    position: relative;
+    top: -50px;
+    padding-left: 50px;
+    font-size: 15px;
+
+  }
+
+  .tex h3{
+    padding-right: 330px;
+    position: relative;
+    top: -60px;
+    font-size: 20px;
+  }
+
+  .tex small{
+    font-size: 15px;
+    padding-right: 330px;
+    position: relative;
+    top: -80px;
+  }
+  /* section six end */
+
+  /* section seven start*/
+
+  .section7{
+    width: 100%;
+    height: 800px; 
+  }
+
+  .section7 .pera{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: -15px;
+  }
+  .plan{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    margin: 0px auto;
+    gap: 30px;
+    border-radius: 10px;
+    border-style:dotted;
+    background-color: rgb(254, 252, 253);
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .card2{
+    width: 380px;
+    height: 500px;
+    gap: 15px;
+    
+    padding: 40px 0;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .num{
+    border-radius: 50px;
+    font-size: 40px;
+    background-color: #8393ff;
+  }
+
+  .card2 input{
+    width: 100px;
+    height: 35px;
+    background-color: #8393ff;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  /* section seven end */
+
+  /* section eight start */
+ .section8{
+    width: 100%;
+    height: 700px;
+  }
+
+  .section8 .pera{
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+  }
+.blog{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.blog .card3{
+  width: 300px;
+}
+.card3 img{
+  width: 100%;
+}
+.profile img{
+  width: 10%;
+}
+.profile h5{
+  position: relative;
+  top: -50px;
+  padding-left: 35px;
+}
+.profile p{
+  position: relative;
+  top: -85px;
+  padding-left: 190px;
+  font-size: small;
+}
+.profile small{
+  position: relative;
+  top: -115px;
+  padding-left: 255px;
+  color: red;
+}
+.profile h3{
+  position: relative;
+  top: -90px;
+}
+.profile span{
+  position: relative;
+  top: -100px;
+}
+
+
+/* section eight end */
+
+/* footer end */
+footer{
+  width: 100%;
+  height: 350px;
+  margin-top: 100px;
+  background-color: #030721;
+}
+.fut{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:#fff;
+  margin-left: 200px;
+}
+.about-tex{
+  width: 430px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+}
+.about-tex p{
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+}
+.btn{
+  width: 70px;
+  font-size: 15px;
+  background-color: #14ed84;
+  font-weight: bold;
+}
+.tex-in{
+  width: 220px;
+}
+.about-tex .fa-brands{
+  color: #14ed84;
+  padding: 5px;
+  position: relative;
+  top: 10px;
+}
+.about-tex a{
+ text-decoration: none;
+}
+/* footer end */
+
+@media(max-width: 768px) {
+  
+  header{
+    width: 100%;
+    height:auto;
+  }
+ 
+  header .logo{
+    margin-left: 60px;
+    margin-top: -20px;
+  }
+
+  header .nav ul{
+    position: fixed;
+    width: 100%;
+    height:50px;
+    background-color: #f9f9ff;
+    top: 54px;
+    left: -200%;
+    transition: all 1s;
+     }
+ 
+  .checkbtn{
+  display: block;
+}
+
+header .nav ul li{
+  line-height: 30px;
+  clear: both;
+  margin-top: 15px;
+}
+
+#check:checked ~ ul{
+ left: 0;
+}
+
+
+ }
+
+@media (max-width:768px) {
+  .section1{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .half1{
+    margin: auto;
+    padding: 0;
+  }
+
+  .half1 h3{
+    margin-top: 100px;
+    font-size: 15px;
+  }
+  .half1 h1{
+    font-size: 20px;
+  }
+
+  .half2 img{
+    margin-left: 110px;
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .section2{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .img2 img{
+    width: 250px;
+    margin: auto;
+    margin-left: -40px;
+    padding: 0;
+    margin-top: 50px;
+  }
+
+
+  .text{
+    position: relative;
+    top:50px ;
+    padding: 40px;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid blue;
+    
+
+  }
+  .text h3{
+   font-size: 15px;
+   color: #0020f3;
+   font-weight: bold;
+  }
+  .text h1{
+  font-size: 18px;
+  }
+  .text p{
+   width: 100%;
+   color: #656565;
+
+  }
+  .text input{
+    width: 100%;
+  }
+
+  .section3{
+    width: 100%;
+    height: auto;
+   
+  }
+
+  .section3 h1{
+    font-size: 40px;
+    color: #034023;
+    position: relative;
+    top: 70px;
+  }
+
+  .servise{
+    display: grid;
+  }
+
+  .servise .card{
+    border: 5px solid rgb(66, 248, 5);
+    width: 350px;
+    height: auto;
+
+
+}
+
+.section5{
+  position: relative;
+  top: -50px;
+  width: 100%;
+  height: auto;
+}
+
+.section5 .tex h1{
+  position: relative;
+  top: 80px;
+  font-size: 25px;
+}
+
+.section5 .tex p{
+  position: relative;
+  top: 50px;
+  padding-right:50px;
+  color: gray;
+}
+
+.section5 .tex ul li{
+  font-size: 17px;
+  position: relative;
+  top: 50px;
+  margin-right: 40px;
+  
+}
+
+.section5 .protfolio{
+  display: grid;
+}
+
+.section6{
+  display:none;
+ }
+.container{
+  display: none;
+}
+
+.section7 .my{
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+}
+.section7 .pera{
+  position: relative;
+  top: 100px;
+  color: #656565;
+}
+.plan{
+  width: 100%;
+  height: auto;
+  border: none;
+  
+}
+
+
+.section8 .my{
+  font-size: 27px;
+}
+.section8 .pera{
+  margin: auto;
+  color: #434242;
+}
+
+.blog{
+  display: grid;
+  position: relative;
+  top: 20px;
+  gap: 0px;
+}
+
+footer{
+  width: 100%;
+  height: 100vh;
+  
+  
+  
+  
+}
+
+.fut{
+  display: grid;
+ position: relative;
+ width: 100%;
+ 
+
+}
+
+.fut .about-tex{
+ margin-right: 370px;
+}
+
+}
